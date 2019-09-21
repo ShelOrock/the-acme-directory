@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+span {
+    background-color: tomato;
+    color: white;
+}
+
+.info-container {
+    background-color: tomato;
+    border: 1px solid black;
+    margin: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    color: white;
+}
+
+.list-image {
+    background-image: url(https://learndotresources.s3.amazonaws.com/workshop/5d82f73445ae900004652db3/three_stooges.jpg);
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin: 1rem auto;
+}
+
+.moe {
+    background-position: top left;
+}
+
+.larry {
+    background-position: top right;
+}
+
+.curly{
+    background-position: center;
+}
